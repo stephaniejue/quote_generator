@@ -1,0 +1,168 @@
+/*font-family: 'Give You Glory', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Alex Brush', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Zeyada', cursive;*/
+
+body {
+  text-align: center;
+  background-image: url('images/speech-bubble.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  z-index: -1; position:relative;
+}
+
+.quotebox {
+  margin: 20px auto 40px auto;
+  padding: 30px;
+  /*border: 2px solid black;*/
+  max-width: 700px;
+  width: 100%;
+}
+
+/*.header {
+  margin-bottom: 30px;
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-size: 90px;
+}*/
+
+#quote-content {
+  text-align: left;
+  margin: 20px;
+  color: white;
+  line-height: 150%;
+  font-family: 'Assistant', sans-serif;
+  font-size: 26px;
+}
+#quote-title {
+  font-size: 20px;
+  font-family: 'Assistant', sans-serif;
+  text-align: left;
+  font-style: italic;
+  /*margin-left: -150px;
+  margin-top: 67px;*/
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  background-color: inherit;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-image: url(images/Next_Arrow_white.png);
+}
+button {
+  background-color: inherit;
+  background-image: url('images/Next_Arrow.png');
+  background-size: 50px;
+  background-repeat: no-repeat;
+  border: none;
+}
+#get-quote {
+  width: 55px;
+  height: 55px;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 90px;
+  color: white;
+  font-family: 'Gudea', sans-serif;
+  z-index: 1; position:relative;
+  border-radius: 7px;
+  border: 2px solid transparent;
+  color: white;
+}
+
+#quotation-mark-first{
+  font-size: 300px;
+  text-align: right;
+  font-family: 'Passion One', cursive;
+  margin-top: -255px;
+  margin-bottom: -100px;
+  transform: rotate(-180deg);
+  z-index: -1; position:relative;
+  color: #A9A9A9;
+}
+#tweetBtn {
+  text-align: center;
+}
+#quotation-mark-second{
+  font-size: 300px;
+  text-align: right;
+  font-family: 'Passion One', cursive;
+  margin-top: -165px;
+  margin-bottom: -195px;
+  z-index: -1; position:relative;
+  color: #A9A9A9;
+}
+
+.twitter-share-button {
+  background-color: inherit;
+}
+.background1 {
+  background-color: #5A8780;
+}
+.background2 {
+  background-color: #63A3CD;
+}
+.background3 {
+  background-color: #6B87B6;
+}
+.background4 {
+  background-color: #58598c;
+}
+.background5 {
+  background-color: #8d4a7a;
+}
+.background6 {
+  background-color: #894235;
+}
+.background7 {
+  background-color: #BD7940;
+}
+.background8 {
+  background-color: #BDA24D;
+}
+.background9 {
+  background-color: #8C8758;
+}
+
+
+/*For iphone sizing*/
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+    #quotation-mark-first{
+      font-size: 100px;
+      margin-top: -105px;
+      margin-bottom: -35px;
+    }
+    #quotation-mark-second{
+      font-size: 100px;
+      margin-top: -65px;
+      margin-bottom: -125px;
+    }
+    button:hover{
+      background-size: 50px;
+    }
+    button {
+      background-size: 50px;
+    }
+    #get-quote {
+      width: 55px;
+      height: 55px;
+    }
+    h1 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-weight: bolder;
+      font-size: 60px;
+    }
+}
