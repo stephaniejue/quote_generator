@@ -9,18 +9,20 @@ font-family: 'Zeyada', cursive;*/
 
 body {
   text-align: center;
-  background-image: url('images/speech-bubble.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  z-index: -1; position:relative;
 }
 
 .quotebox {
+  /*background-image: url('images/speech-bubble.png');*/
+  background-size: 70%;
+  background-repeat: no-repeat;
   margin: 20px auto 40px auto;
   padding: 30px;
   /*border: 2px solid black;*/
-  max-width: 700px;
-  width: 100%;
+  width: 700px;
+  height: 450px;
+}
+.quotebox > img {
+  width: 50%;
 }
 
 /*.header {
@@ -91,9 +93,7 @@ h1 {
   z-index: -1; position:relative;
   color: #A9A9A9;
 }
-#tweetBtn {
-  text-align: center;
-}
+
 #quotation-mark-second{
   font-size: 300px;
   text-align: right;
@@ -133,6 +133,11 @@ h1 {
 }
 .background9 {
   background-color: #8C8758;
+}
+#footer {
+  position:absolute;
+  left: 20px;
+  bottom:12px;
 }
 
 
