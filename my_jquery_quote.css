@@ -12,17 +12,13 @@ body {
 }
 
 .quotebox {
-  /*background-image: url('images/speech-bubble.png');*/
-  background-size: 70%;
-  background-repeat: no-repeat;
+  background-color: white;
   margin: 20px auto 40px auto;
   padding: 30px;
-  /*border: 2px solid black;*/
-  width: 700px;
-  height: 450px;
-}
-.quotebox > img {
-  width: 50%;
+  border: 2px solid white;
+  border-radius: 8px;
+  max-width: 700px;
+  /*max-height: 450px;*/
 }
 
 /*.header {
@@ -35,9 +31,9 @@ body {
 #quote-content {
   text-align: left;
   margin: 20px;
-  color: white;
+  /*color: white;*/
   line-height: 150%;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Asap', sans-serif;
   font-size: 26px;
 }
 #quote-title {
@@ -47,7 +43,7 @@ body {
   font-style: italic;
   /*margin-left: -150px;
   margin-top: 67px;*/
-  color: white;
+  /*color: white;*/
   margin-left: 20px;
   margin-bottom: 20px;
 }
@@ -56,25 +52,30 @@ button:hover{
   background-color: inherit;
   background-size: 50px;
   background-repeat: no-repeat;
-  background-image: url(images/Next_Arrow_white.png);
+  /*background-image: url(images/Next_Arrow_white.png);*/
 }
 button {
   background-color: inherit;
-  background-image: url('images/Next_Arrow.png');
+  /*background-image: url('images/Next_Arrow.png');*/
   background-size: 50px;
   background-repeat: no-repeat;
   border: none;
 }
 #get-quote {
-  width: 55px;
-  height: 55px;
+  padding: 6px 8px 6px 8px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+}
+#tweetBtn {
+  text-align: right;
 }
 
 h1 {
   margin-top: 30px;
   margin-bottom: 20px;
   font-weight: bolder;
-  font-size: 90px;
+  font-size: 160px;
   color: white;
   font-family: 'Gudea', sans-serif;
   z-index: 1; position:relative;
@@ -83,7 +84,7 @@ h1 {
   color: white;
 }
 
-#quotation-mark-first{
+/*#quotation-mark-first{
   font-size: 300px;
   text-align: right;
   font-family: 'Passion One', cursive;
@@ -102,7 +103,7 @@ h1 {
   margin-bottom: -195px;
   z-index: -1; position:relative;
   color: #A9A9A9;
-}
+}*/
 
 .twitter-share-button {
   background-color: inherit;
@@ -134,6 +135,36 @@ h1 {
 .background9 {
   background-color: #8C8758;
 }
+
+.color1 {
+  color: #5A8780;
+}
+.color2 {
+  color: #63A3CD;
+}
+.color3 {
+  color: #6B87B6;
+}
+.color4 {
+  color: #58598c;
+}
+.color5 {
+  color: #8d4a7a;
+}
+.color6 {
+  color: #894235;
+}
+.color7 {
+  color: #BD7940;
+}
+.color8 {
+  color: #BDA24D;
+}
+.color9 {
+  color: #8C8758;
+}
+
+
 #footer {
   position:absolute;
   left: 20px;
@@ -144,7 +175,7 @@ h1 {
 /*For iphone sizing*/
 
 @media all and (max-width: 599px) and (min-width: 50px) {
-    #quotation-mark-first{
+    /*#quotation-mark-first{
       font-size: 100px;
       margin-top: -105px;
       margin-bottom: -35px;
@@ -153,7 +184,7 @@ h1 {
       font-size: 100px;
       margin-top: -65px;
       margin-bottom: -125px;
-    }
+    }*/
     button:hover{
       background-size: 50px;
     }
@@ -168,6 +199,6 @@ h1 {
       margin-top: 30px;
       margin-bottom: 20px;
       font-weight: bolder;
-      font-size: 60px;
+      font-size: 130px;
     }
 }
