@@ -31,60 +31,52 @@
     <div class="row">
       <div class="col-12-7 text-center">
         <h1>Quote Generator</h1>
-
-
-
+        <strong>
+          <button id="get-quote" class="color1">Click here to get another!</button>
+        </strong>
       </div>
     </div>
-
     <div class="row">
       <div class="col-md-1 ">
       </div>
       <div class="col-md-10 text-center">
-          <div class="quotebox">
-            <!-- <div id="quotation-mark-first">"</div> -->
-            <strong><div id="quote-content" class="color1"></div></strong>
-            <div id="quote-title" class="color1"></div>
-            <!-- <div id="quotation-mark-second">"</div> -->
-            <div id="tweetBtn">
-              <a class="twitter-share-button"
-                id="tweet"
-                href="https://twitter.com/share"
-                data-size="large"
-                data-text="">
-              </a>
-              <script>window.twttr = (function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0],
-                t = window.twttr || {};
-              if (d.getElementById(id)) return t;
-              js = d.createElement(s);
-              js.id = id;
-              js.src = "https://platform.twitter.com/widgets.js";
-              fjs.parentNode.insertBefore(js, fjs);
+        <div class="quotebox">
+          <!-- <div id="quotation-mark-first">"</div> -->
+          <strong><div id="quote-content" class="color1"></div>
+          <div id="quote-title" class="color1"></div></strong>
+          <!-- <div id="quotation-mark-second">"</div> -->
+          <div id="tweetBtn">
+            <a class="twitter-share-button"
+            id="tweet"
+            href="https://twitter.com/share"
+            data-size="large"
+            data-text="">
+          </a>
+          <script>window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
 
-              t._e = [];
-              t.ready = function(f) {
-                t._e.push(f);
-              };
+            t._e = [];
+            t.ready = function(f) {
+              t._e.push(f);
+            };
 
-              return t;
-              }(document, "script", "twitter-wjs"));</script>
-            </div>
-          </div>
+            return t;
+          }(document, "script", "twitter-wjs"));</script>
+        </div>
       </div>
-
     </div>
-
-
-</div>
-</body>
-<footer id="footer">
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <strong>
-        <button id="get-quote" class="color1">Click here to get another!</button>
-      </strong>
+    <div class="col-md-1 ">
     </div>
   </div>
+  </div> <!-- container end -->
+</body> <!-- body end -->
+<footer>
+
 </footer>
 </html>
