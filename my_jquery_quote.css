@@ -8,7 +8,7 @@ font-family: 'Reenie Beanie', cursive;
 font-family: 'Zeyada', cursive;*/
 
 body {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .quotebox {
@@ -62,10 +62,13 @@ button {
   border: none;
 }
 #get-quote {
-  padding: 6px 8px 6px 8px;
-  border: 2px solid white;
-  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 8px 6px 8px;
+  border: 6px solid white;
+  border-radius: 6px;
   color: white;
+  font-size: 50px;
 }
 #tweetBtn {
   text-align: right;
@@ -74,13 +77,14 @@ button {
 h1 {
   margin-top: 30px;
   margin-bottom: 20px;
+  margin-right: 20px;
   font-weight: bolder;
-  font-size: 160px;
+  font-size: 110px;
   color: white;
-  font-family: 'Gudea', sans-serif;
-  z-index: 1; position:relative;
+  font-family: 'Oswald', sans-serif;
+  /*z-index: 1; position:relative;*/
   border-radius: 7px;
-  border: 2px solid transparent;
+  /*border: 2px solid transparent;*/
   color: white;
 }
 
@@ -166,7 +170,7 @@ h1 {
 
 
 #footer {
-  position:absolute;
+  position: absolute;
   left: 20px;
   bottom:12px;
 }
@@ -186,18 +190,18 @@ h1 {
       margin-bottom: -125px;
     }*/
     button:hover{
-      background-size: 50px;
+      /*background-size: 50px;*/
     }
     button {
-      background-size: 50px;
+      /*background-size: 50px;*/
     }
     #get-quote {
-      width: 55px;
-      height: 55px;
+      /*width: 55px;
+      height: 55px;*/
     }
     h1 {
-      margin-top: 30px;
-      margin-bottom: 20px;
+      /*margin-top: 30px;
+      margin-bottom: 20px;*/
       font-weight: bolder;
       font-size: 130px;
     }
